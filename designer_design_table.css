@@ -1,0 +1,42 @@
+#design_table
+{
+	table-layout:fixed;
+}
+
+#design_table th 
+{
+	font-size: 100%;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	background-color: #A7C942;
+	color: #FFF;
+}
+
+#hlt 
+{
+	font-size: 100%;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	background-color: #A7C942;
+	color: #FFF;
+}
+
+#design_table tr 
+{
+	color: #000;
+	background-color: #EAF2D3;
+	font-size: 100%;
+	border: 1px solid #98BF21;
+	padding: 3px 7px 2px;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	border-collapse: collapse;
+	line-height: 1.42857;
+}
+
+#design_table td
+{
+	overflow:hidden;
+	word-wrap: break-word;
+}

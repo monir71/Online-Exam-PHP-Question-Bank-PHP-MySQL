@@ -1,0 +1,200 @@
+body {
+	background-image: url("img/logoo.jpg");
+	background-color: #EEE;
+	color: #000305;
+	font-size: 87.5%; /*Base font size is 14px*/
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #CF5C3F;
+}
+
+a:hover, a:active {
+	background-color: #CF5C3F;
+	color: #FFF;
+}
+
+.body {
+	margin: 0 auto;
+	width: 90%;
+	clear: both;
+	font-size:14px;
+	
+}
+
+.mainheader {
+	text-align:center;
+}
+
+.mainheader nav {
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainheader nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainheader nav ul li {
+	float: left;
+	display: inline;
+}
+
+.mainheader nav a:link, .mainheader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 15px;
+	height: 20px;
+}
+
+.mainheader nav a:hover, .mainheader nav a:active, .mainheader nav .active a:link, .mainheader nav .active a:visited {
+	background-color: #CF5C3F;
+	color: #FFF;
+	text-shadow: none;
+}
+
+.mainheader nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.maincontent {
+	line-height: 15px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.content {
+	width: 100%;
+	float:left;
+}
+
+.topcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.bottomcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 90%;
+	text-align:right;
+}
+
+#write_info {
+	font-style: arial;
+	font-size: 100%;
+	text-align:justify;
+}
+
+.mainfooter {
+	width: 100%;
+	/* Remove height: 40px; to be responsive */
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #666;
+	margin: 2% 0 2% 0;
+}
+
+.mainfooter p {
+	width: 92%;
+	margin: 10px auto;
+	color: #FFF;
+	text-align: center;
+}
+
+.topiclist a {
+	font: 20px bold;
+	letter-spacing: 2px;
+}
+
+#submit_button {
+	padding:10px 50px;
+	font-weight:bolder;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+	.body {
+		width: 90%;
+		font-size: 95%;
+	}
+
+	.mainheader img {
+		width: 100%;
+	}
+
+	.mainheader nav ul {
+		padding-left: 0;
+	}
+
+	.mainheader nav ul li {
+		width: 100%;
+		text-align: center;
+	}
+
+	.mainheader nav a:link, .mainheader nav a:visited {
+		padding: 10px 25px;
+		height: 20px;
+		display: block;
+	}
+
+	.content {
+		width: 100%;
+		float:left;
+		margin-top: 24px;
+	}
+	
+	.post-info {
+		display: none;
+	}
+
+	.topcontent {
+		background-color: #FFF;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		padding: 3% 5%;
+		margin-top: 2%;
+		margin-bottom: 4%;
+	}
+
+	.bottomcontent {
+		margin-top: 3%;
+	}
+
+}
+
+
+
+
+
+
